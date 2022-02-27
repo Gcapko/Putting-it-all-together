@@ -1,3 +1,7 @@
+/*
+ * Author: Grayson Capko
+ * Project: Put it all together
+ */
 package Contact_Pack;
 
 import java.util.Map;
