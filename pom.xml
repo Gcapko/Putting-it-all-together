@@ -15,6 +15,7 @@
  
   <name>Contact Project</name>
   <build>
+  	<finalName>Putting-it-all-together</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
