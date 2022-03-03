@@ -1,3 +1,6 @@
+/*
+ * Author: Grayson Capko
+ */
 package Contact_Pack;
 
 public class Contact {

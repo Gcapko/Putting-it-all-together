@@ -1,7 +1,5 @@
 /*
  * Grayson Capko
- * 2/10/2022
- * JUnit Test
  */
 package Contact_Pack;
 
