@@ -32,7 +32,7 @@ class ContactManagerTest {
 	@Test
 	public void shouldCreateContact() {
 	
-		contactManager.addContact("John","Doe", "0123456789");
+		contactManager.addContact("John","Doe", "5123456789");
 		Assertions.assertFalse(contactManager.getAllContacts().isEmpty());
 		Assertions.assertEquals(1,  contactManager.getAllContacts().size());
 		Assertions.assertTrue(contactManager.getAllContacts().stream()
@@ -71,7 +71,7 @@ class ContactManagerTest {
 	
 	@DisplayName("Repeat Contact Creation Test 5 Times")
 	@ParameterizedTest
-	@ValueSource(strings = {"0123456789", "1876543210", "1234567894"})
+	@ValueSource(strings = {"2123456789", "1876543210", "1234567894"})
 	public void shouldTestContactCreationUsingValueSource(String phoneNumber) {
 		contactManager.addContact("John", "Doe", phoneNumber);
 		Assertions.assertFalse(contactManager.getAllContacts().isEmpty());
