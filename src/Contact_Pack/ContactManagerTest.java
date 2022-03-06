@@ -1,6 +1,7 @@
 /*
  * Grayson Capko
  * 3/6/2022
+ * Test
  */
 package Contact_Pack;
 
@@ -33,7 +34,7 @@ class ContactManagerTest {
 	@Test
 	public void shouldCreateContact() {
 	
-		contactManager.addContact("John","Doe", "5123456789");
+		contactManager.addContact("Joe","Doe", "5123456789");
 		Assertions.assertFalse(contactManager.getAllContacts().isEmpty());
 		Assertions.assertEquals(1,  contactManager.getAllContacts().size());
 		Assertions.assertTrue(contactManager.getAllContacts().stream()
